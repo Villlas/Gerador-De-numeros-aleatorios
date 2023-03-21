@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  color: black;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #480ca8;
+}
+
+.container {
+  background-color: rgb(250, 250, 250);
+  padding: 30px 40px;
+  min-width: 470px;
+  background-color: 10px 10px 10px rgba(0, 0, 0, 0.389);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.input_design {
+    display: flex;
+    padding: 20px 0px;
+    gap: 50px;
+}
+
+.input_value label{
+    display: flex;
+    flex-direction:column;
+}
+
+.input_value input {
+    background-color: rgb(250, 250, 250);
+    border: none;
+    border-bottom: 2px solid #f72585;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.input_value input:focus {
+    outline: none;
+    border-bottom: 3px solid #f72585;
+}
+
+#generate {
+    background-color: #f72585;
+    border: none;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 12px;
+    width: 100%;
+    margin: 20px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: background-color 0.5s ease;
+}
+
+#generate:hover {
+    background-color: #f362a3;
+}
+
+#result {
+   font-size: 50px;
+   font-weight: 600;
+}
